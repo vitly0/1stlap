@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.image{
+  height:200px;
+  background-size:cover;
+  background-position:center;
+}
+
+.image:first-child{
+  background-image:url(img/box1.jpg);
+}
+
+.image:nth-child(2){
+  background-image:url(img/box2.jpg);
+}
+
+.image:nth-child(3){
+  background-image:url(img/box3.jpg);
+}
+
+.image:last-child{
+  background-image:url(img/box4.jpg);
+}
